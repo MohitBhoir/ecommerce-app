@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Roboto:wght@300;400;500&family=Rubik&display=swap');
+
+
+
+/* font-family: 'Golos Text', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+nav{
+    font-family:'Golos Text', sans-serif;
+}
