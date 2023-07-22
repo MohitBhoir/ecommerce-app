@@ -55,6 +55,62 @@ const products=[
         price:'99,999',
         image:'./mobile2.jpg',
         type:'mobile'
+    },{
+        id:5,
+        name:'Apple iPhone 14 Pro (128 GB) - Gold',
+        desc:{
+            Brand:'Apple',
+            ModelName:'Apple iPhone 14 Pro (128 GB) - Gold',
+            NetworkServiceProvider:'Unlocked for All Carriers',
+            OS:'iOS',
+            CellularTechnology:'5G',
+            MemoryStorage:'128GB'
+        },
+        price:'1,20,999',
+        image:'./apple.jpg',
+        type:'mobile'
+    },{
+        id:6,
+        name:'Puma Men Basket Classic LFS Leather Sneakers',
+        desc:{
+            Brand:'Puma',
+            Sole: 'Rubber',
+            Closure: 'Lace-Up',
+            FitType: 'Regular',
+            ShoeWidth: 'Medium',
+            StyleName:'-Sneaker',
+            ModelName:'-Basket Classic LFS',
+            BrandColor:'-white-black'
+        },
+        price:'2,399',
+        image:'./shoes.jpg',
+        type:'shoes'
+    },{
+        id:7,
+        name:'boAt Wave Leap Call',
+        desc:{
+            Brand : 'boAt',
+            ModelName:'Wave Leap Call',
+            Style:'Modern',
+            Colour:'Active Black',
+            ScreenSize:'1.83 Inches'
+        },
+        price:'1,499',
+        image:'./watch.jpg',
+        type:'electronics'
+    },{
+        id:8,
+        name:'Skullcandy Dime True Wireless',
+        desc:{
+            Brand:'Skullcandy',
+            Model:'Name	Dime',
+            Colour:'True Black',
+            Form:'Factor In Ear',
+            ConnectivityTechnology:'Wireless'
+        },
+        price:'2,298',
+        image:'./ear.jpg',
+        type:'electronics'
     }
 ]
 
