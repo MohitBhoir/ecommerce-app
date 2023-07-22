@@ -8,7 +8,7 @@ const SearchBar = () => {
         type="text" 
         placeholder='search Amazon.in' 
         className='p-2 rounded-l-md w-[40rem]'/>
-        <button className='bg-[#FEBD69] p-[10px] rounded-r-md text-black'><FaSearch size={20}/></button>
+        <button className='bg-[#f0c14b] p-[10px] rounded-r-md text-black'><FaSearch size={20}/></button>
      </form>
   </>
 }
