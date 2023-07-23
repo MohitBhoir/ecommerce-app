@@ -11,6 +11,7 @@ import Shop from './pages/shop'
 import Cart from './pages/cart'
 import Review from './pages/review'
 import AllReviews from './pages/allreview'
+import CheckSuccess from './components/checksuccess'
 
 const App = () => {
   return <>
@@ -19,6 +20,7 @@ const App = () => {
         <Routes>
             <Route path='/' element={<Home/>} />
             <Route path="/cart" element={<Cart/>} />
+            <Route path="/checkout-success" element={<CheckSuccess/>} />
             <Route path="/electronics" element={<Ele/>}/>
             <Route path='/login' element={<Login/>} />
             <Route path="/register" element={<Register/>} />

@@ -8,7 +8,7 @@ const products=[
             Capacity:'8 Kilograms',
             SpecialFeature:'Smart Diagnosis, Water Proof Touch Control, Baby Care, 6 Motion, Inverter Direct Drive Motor, Foam sensing and removal, In-built HeaterSmart Diagnosis, Water Proof Touch Control, Baby Care, 6 Motion, Inverter Direct Drive Motor, Foam sensing and removal, In-built Heater'
         },
-        price:'33,990',
+        price:33990,
         image:'./wash1.jpg',
         type:'electronics'
     },
@@ -22,7 +22,7 @@ const products=[
             ProductDimensions:'55D x 60W x 85H Centimeters',
             SpecialFeature:'Inverter, In built heater, Wi-fi'
         },
-        price:'65,990',
+        price:65990,
         image:'./wash2.jpg',
         type:'electronics'
     },
@@ -37,7 +37,7 @@ const products=[
             CellularTechnology:'5G, 4G LTE',
             MemoryStorage:'256GB'
         },
-        price:'33,999',
+        price:33999,
         image:'./mobile1.jpg',
         type:'mobile'
     },
@@ -52,7 +52,7 @@ const products=[
             CellularTechnology:'5G',
             MemoryStorage:'256GB'
         },
-        price:'99,999',
+        price:99999,
         image:'./mobile2.jpg',
         type:'mobile'
     },{
@@ -66,7 +66,7 @@ const products=[
             CellularTechnology:'5G',
             MemoryStorage:'128GB'
         },
-        price:'1,20,999',
+        price:120999,
         image:'./apple.jpg',
         type:'mobile'
     },{
@@ -82,7 +82,7 @@ const products=[
             ModelName:'-Basket Classic LFS',
             BrandColor:'-white-black'
         },
-        price:'2,399',
+        price:2399,
         image:'./shoes.jpg',
         type:'shoes'
     },{
@@ -95,7 +95,7 @@ const products=[
             Colour:'Active Black',
             ScreenSize:'1.83 Inches'
         },
-        price:'1,499',
+        price:1499,
         image:'./watch.jpg',
         type:'electronics'
     },{
@@ -108,7 +108,7 @@ const products=[
             Form:'Factor In Ear',
             ConnectivityTechnology:'Wireless'
         },
-        price:'2,298',
+        price:2298,
         image:'./ear.jpg',
         type:'electronics'
     }

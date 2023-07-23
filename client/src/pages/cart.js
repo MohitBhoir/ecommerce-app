@@ -1,6 +1,7 @@
 import React, { useEffect,useState} from 'react'
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import PayButton from '../components/paybutton';
 
 const Cart = () => {
   const [data,setData]=useState(null)
@@ -79,6 +80,7 @@ const Cart = () => {
                             onClick={()=>handleClick(_id)}
                             >
                               Remove from cart</button>
+                            <PayButton cartItems={e}/>
                         </div>
                       </div>
                  </article>
