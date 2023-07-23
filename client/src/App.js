@@ -9,6 +9,8 @@ import Login from './pages/login'
 import Register from './pages/register'
 import Shop from './pages/shop'
 import Cart from './pages/cart'
+import Review from './pages/review'
+import AllReviews from './pages/allreview'
 
 const App = () => {
   return <>
@@ -21,6 +23,8 @@ const App = () => {
             <Route path='/login' element={<Login/>} />
             <Route path="/register" element={<Register/>} />
             <Route path="/shop" element={<Shop/>} />
+            <Route path="/review" element={<Review/>} />
+            <Route path="/allreview" element={<AllReviews/>} />
         </Routes>
     </Router>
     <ToastContainer/>

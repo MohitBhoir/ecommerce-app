@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import products from '../data/products'
 import { toast } from "react-toastify";
+import { useNavigate } from 'react-router-dom';
 
 const Shop = () => {
   const user = JSON.parse(localStorage.getItem("user"));
+  const navigate=useNavigate()
   const handleClick=(brand,name,price)=>{
         createProduct(brand,name,price)
+  }
+  const rev=(name)=>{
+         if(user){
+              localStorage.setItem('pName',JSON.stringify(name))
+             navigate("/review")
+         }else{
+             toast.error("please login first");
+         }
   }
   const createProduct = async (brand,name,price) => {
     try {
@@ -26,8 +36,7 @@ const Shop = () => {
        toast.error("please login first");
     }
   };
-  return <>
-      <div className='grid grid-cols-2 gap-4 p-3'>{
+  return <><div className='grid grid-cols-2 gap-4 p-3'>{
           products.map((e)=>{
               const {id,name,price,image,type,desc}=e
                  return <article id={id} 
@@ -42,9 +51,14 @@ const Shop = () => {
                                 <span >₹</span>
                                <h1 className='text-2xl font-bold'>{price}</h1>
                             </div>
-                            <button onClick={()=>handleClick(desc.Brand,name,price)}
-                            className='text-white bg-[#f0c14b] w-max rounded-sm p-1 my-2 cursor-pointer'>
-                            Add to cart</button>
+                            <div>
+                                <button onClick={()=>handleClick(desc.Brand,name,price)}
+                                className='text-white bg-[#f0c14b] w-max rounded-sm p-1 my-2 cursor-pointer'>
+                                Add to cart</button>
+                                <button onClick={()=>rev(name)}
+                                className='text-white bg-[#37475A] w-max rounded-sm p-1 my-2 cursor-pointer block'>
+                                Review</button>
+                            </div>
                         </div>
                       </div>
                  </article>

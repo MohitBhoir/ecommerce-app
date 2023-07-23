@@ -44,6 +44,7 @@ const Navbar = () => {
                     <Link to="/electronics" className='cursor-pointer'>Electronics</Link>
                     <Link to="/register" className='cursor-pointer'>Sign up</Link>
                     <Link to="/shop" className='cursor-pointer'>Shop now</Link>
+                    <Link to="/allreview" className='cursor-pointer'>All Reviews</Link>
             </ul>
        </nav>
   </>
