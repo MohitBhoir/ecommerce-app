@@ -20,6 +20,7 @@ app.use(cors({
 
 app.use('/api/v1',require('./routes/products'))
 app.use("/api/users",require("./routes/user"))
+app.use('/api/v1/reviews',require('./routes/review'))
 
 
 app.use(errorHandler)
