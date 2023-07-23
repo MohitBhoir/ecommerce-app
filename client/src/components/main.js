@@ -5,20 +5,20 @@ import { RxDotFilled } from 'react-icons/rx';
 const Main=()=>{
   const slides = [
     {
-      url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
+      url: 'https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg',
     },
     {
-      url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+      url: 'https://images-eu.ssl-images-amazon.com/images/G/31/img2020/Vernac/2021/Gw-Hero/Mobile_tall_Hero_revision_3000x1200._CB604857279_.jpg',
     },
     {
-      url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
+      url: 'https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/July_23/ATF/Unrec/Apay/Shoes/Shoes_3000_1._CB600323828_.jpg',
     },
 
     {
-      url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
+      url: 'https://images-eu.ssl-images-amazon.com/images/G/31/img18/Lawn_Garden/Ud/July2023/Monsoongd/GW/GW-heros-Pc-1._CB600721417_.jpg',
     },
     {
-      url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
+      url: 'https://images-eu.ssl-images-amazon.com/images/G/31/img22/Unrec/TallHero_3000X1200_Unrec._CB593464763_.jpg',
     },
   ];
 
@@ -44,7 +44,7 @@ const Main=()=>{
     <div className='max-w-[1400px] h-[500px] w-full m-auto py-16 px-4 relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
+        className='w-full h-full rounded-2xl bg-cover duration-500'
       ></div>
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>

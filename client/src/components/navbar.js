@@ -20,6 +20,9 @@ const Navbar = () => {
                 <img src={require('./amazon.png')} alt="" className='h-[100px] w-[130px]'/>
                 <SearchBar/>
                 <>
+                    <h1 className="font-bold text-xl">
+                {user ? `Hey,${user.name} welcome to amazon` : ``}
+                </h1>
                    {
                     data?
 
@@ -37,9 +40,10 @@ const Navbar = () => {
             </div>
             <ul className='flex items-center justify-between bg-[#37475A] p-[0.4rem]'>
                     <Link to="/" className='cursor-pointer'>Home</Link>
+                    <Link to="/cart" className='cursor-pointer'>Your Cart</Link>
                     <Link to="/electronics" className='cursor-pointer'>Electronics</Link>
-                    <Link to="/register" className='cursor-pointer'>sign up</Link>
-                    <div>random design</div>
+                    <Link to="/register" className='cursor-pointer'>Sign up</Link>
+                    <Link to="/shop" className='cursor-pointer'>Shop now</Link>
             </ul>
        </nav>
   </>
