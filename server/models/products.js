@@ -1,12 +1,19 @@
 const mongoose = require('mongoose');
 
 const productsSchema=mongoose.Schema({
-    product:{
-        type:String,
-        required:[true,'please add the item']
+    user:{
+        type:mongoose.Schema.Types.ObjectId,  // _id present in mongoDB
+        required:true,
+        ref:'User'  // to identify which model this ObjectId belongs to
     },
-    amount:{
-        type:String
+    brand:{
+        type:String,
+    },
+    name:{
+         type:String
+    },
+    price:{
+         type:String
     }
 },{
     timestamps:true,
