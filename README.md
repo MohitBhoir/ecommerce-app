@@ -34,7 +34,7 @@
 
 ### Payment gateway
 * Stripe
-* 
+
 
 ## 🛠 Project Setup
 
